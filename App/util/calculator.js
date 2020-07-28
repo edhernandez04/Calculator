@@ -7,10 +7,10 @@ export const initialState = {
 export const handleNumber = (value, state) => {
     if (state.currentValue === '0'){
         return { currentValue: `${value}`}
-      }
-      return {
+    }
+    return {
         currentValue: `${state.currentValue}${value}`
-      }
+    }
   }
   
 export const handleEqual = (state) => {
